@@ -21,6 +21,10 @@ The script `setup_env.sh` installs all required dependencies and builds `liboqs`
 ```bash
 ./setup_env.sh
 ```
+<<<<<<< HEAD
+=======
+
+>>>>>>> f4e584a7f6ab86c7278a6921a31613c6015a34ff
 ### 2. Running Experiments
 
 The script run_exp.sh runs the post-quantum experiments:
