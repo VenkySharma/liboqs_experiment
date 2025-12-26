@@ -1,2 +1,0 @@
-===== KEM FUNCTIONAL TEST =====
-Testing KEM algorithms using liboqs version 0.15.0
