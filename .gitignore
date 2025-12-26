@@ -1,6 +1,3 @@
-# Build artifacts
-libs/liboqs/build/
-libs/liboqs/.git/
 
 # OS junk
 .DS_Store
