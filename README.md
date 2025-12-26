@@ -25,9 +25,9 @@ The script `setup_env.sh` installs all required dependencies and builds `liboqs`
 ### 2. Running Experiments
 
 The script run_exp.sh runs the post-quantum experiments:
-
+```bash
 ./run_exp.sh
-
+```
 This script performs:
 
     Speed benchmarking for all enabled KEM and signature algorithms
