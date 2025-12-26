@@ -1,0 +1,9 @@
+Key and signature sizes are defined in liboqs headers:
+
+- KEM sizes: oqs/kem.h
+- Signature sizes: oqs/sig.h
+
+Look for:
+  kem->length_public_key
+  kem->length_ciphertext
+  sig->length_signature

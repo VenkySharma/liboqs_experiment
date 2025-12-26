@@ -1,0 +1,73 @@
+===== SIGNATURE FUNCTIONAL TESTS =====
+---- ML-DSA-44 ----
+Testing signature algorithms using liboqs version 0.15.0
+Configuration info
+==================
+Target platform:  x86_64-Linux-6.14.0-37-generic
+Compiler:         gcc (13.3.0)
+Compile options:  [-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]
+OQS version:      0.15.0 (major: 0, minor: 15, patch: 0)
+Git commit:       589731b0c947d73b3d6fc72bcd4e3b6e0ec0bf4e
+OpenSSL enabled:  Yes (OpenSSL 3.0.13 30 Jan 2024)
+AES:              NI
+SHA-2:            OpenSSL
+SHA-3:            AVX2
+OQS build flags:  OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  ADX AES AVX AVX2 BMI1 BMI2 PCLMULQDQ POPCNT SSE SSE2 SSE3
+Extended tests enabled
+================================================================================
+Sample computation for signature ML-DSA-44
+Testing EUF-CMA by flipping 50 random bits of the message
+Testing SUF-CMA by flipping 50 random bits of the signature
+Version source: FIPS204
+================================================================================
+verification passes as expected
+
+---- ML-DSA-65 ----
+Testing signature algorithms using liboqs version 0.15.0
+Configuration info
+==================
+Target platform:  x86_64-Linux-6.14.0-37-generic
+Compiler:         gcc (13.3.0)
+Compile options:  [-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]
+OQS version:      0.15.0 (major: 0, minor: 15, patch: 0)
+Git commit:       589731b0c947d73b3d6fc72bcd4e3b6e0ec0bf4e
+OpenSSL enabled:  Yes (OpenSSL 3.0.13 30 Jan 2024)
+AES:              NI
+SHA-2:            OpenSSL
+SHA-3:            AVX2
+OQS build flags:  OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  ADX AES AVX AVX2 BMI1 BMI2 PCLMULQDQ POPCNT SSE SSE2 SSE3
+Extended tests enabled
+================================================================================
+Sample computation for signature ML-DSA-65
+Testing EUF-CMA by flipping 50 random bits of the message
+Testing SUF-CMA by flipping 50 random bits of the signature
+Version source: FIPS204
+================================================================================
+verification passes as expected
+
+---- ML-DSA-87 ----
+Testing signature algorithms using liboqs version 0.15.0
+Configuration info
+==================
+Target platform:  x86_64-Linux-6.14.0-37-generic
+Compiler:         gcc (13.3.0)
+Compile options:  [-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]
+OQS version:      0.15.0 (major: 0, minor: 15, patch: 0)
+Git commit:       589731b0c947d73b3d6fc72bcd4e3b6e0ec0bf4e
+OpenSSL enabled:  Yes (OpenSSL 3.0.13 30 Jan 2024)
+AES:              NI
+SHA-2:            OpenSSL
+SHA-3:            AVX2
+OQS build flags:  OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  ADX AES AVX AVX2 BMI1 BMI2 PCLMULQDQ POPCNT SSE SSE2 SSE3
+Extended tests enabled
+================================================================================
+Sample computation for signature ML-DSA-87
+Testing EUF-CMA by flipping 50 random bits of the message
+Testing SUF-CMA by flipping 50 random bits of the signature
+Version source: FIPS204
+================================================================================
+verification passes as expected
+

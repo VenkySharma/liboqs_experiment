@@ -1,0 +1,23 @@
+# Build artifacts
+libs/liboqs/build/
+libs/liboqs/.git/
+
+# OS junk
+.DS_Store
+*.swp
+
+# Logs & temp
+*.log
+*.tmp
+
+# Editor configs
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+
+# Secrets (defensive)
+*.key
+*.pem
+*.crt

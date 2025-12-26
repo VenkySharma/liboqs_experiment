@@ -1,0 +1,67 @@
+===== KEM FUNCTIONAL TESTS =====
+---- Kyber512 ----
+Testing KEM algorithms using liboqs version 0.15.0
+Configuration info
+==================
+Target platform:  x86_64-Linux-6.14.0-37-generic
+Compiler:         gcc (13.3.0)
+Compile options:  [-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]
+OQS version:      0.15.0 (major: 0, minor: 15, patch: 0)
+Git commit:       589731b0c947d73b3d6fc72bcd4e3b6e0ec0bf4e
+OpenSSL enabled:  Yes (OpenSSL 3.0.13 30 Jan 2024)
+AES:              NI
+SHA-2:            OpenSSL
+SHA-3:            AVX2
+OQS build flags:  OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  ADX AES AVX AVX2 BMI1 BMI2 PCLMULQDQ POPCNT SSE SSE2 SSE3
+================================================================================
+sample computation for KEM Kyber512
+Version source: https://github.com/pq-crystals/kyber/commit/74cad307858b61e434490c75f812cb9b9ef7279b
+================================================================================
+shared secrets are equal
+OQS_KEM_keypair_derand failed, as expected
+
+---- Kyber768 ----
+Testing KEM algorithms using liboqs version 0.15.0
+Configuration info
+==================
+Target platform:  x86_64-Linux-6.14.0-37-generic
+Compiler:         gcc (13.3.0)
+Compile options:  [-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]
+OQS version:      0.15.0 (major: 0, minor: 15, patch: 0)
+Git commit:       589731b0c947d73b3d6fc72bcd4e3b6e0ec0bf4e
+OpenSSL enabled:  Yes (OpenSSL 3.0.13 30 Jan 2024)
+AES:              NI
+SHA-2:            OpenSSL
+SHA-3:            AVX2
+OQS build flags:  OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  ADX AES AVX AVX2 BMI1 BMI2 PCLMULQDQ POPCNT SSE SSE2 SSE3
+================================================================================
+sample computation for KEM Kyber768
+Version source: https://github.com/pq-crystals/kyber/commit/28413dfbf523fdde181246451c2bd77199c0f7ff
+================================================================================
+shared secrets are equal
+OQS_KEM_keypair_derand failed, as expected
+
+---- Kyber1024 ----
+Testing KEM algorithms using liboqs version 0.15.0
+Configuration info
+==================
+Target platform:  x86_64-Linux-6.14.0-37-generic
+Compiler:         gcc (13.3.0)
+Compile options:  [-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]
+OQS version:      0.15.0 (major: 0, minor: 15, patch: 0)
+Git commit:       589731b0c947d73b3d6fc72bcd4e3b6e0ec0bf4e
+OpenSSL enabled:  Yes (OpenSSL 3.0.13 30 Jan 2024)
+AES:              NI
+SHA-2:            OpenSSL
+SHA-3:            AVX2
+OQS build flags:  OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  ADX AES AVX AVX2 BMI1 BMI2 PCLMULQDQ POPCNT SSE SSE2 SSE3
+================================================================================
+sample computation for KEM Kyber1024
+Version source: https://github.com/pq-crystals/kyber/commit/28413dfbf523fdde181246451c2bd77199c0f7ff
+================================================================================
+shared secrets are equal
+OQS_KEM_keypair_derand failed, as expected
+
